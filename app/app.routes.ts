@@ -5,6 +5,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { aboutRoutes }    from './about/about.route';
 import { contactRoutes }    from './contact/contact.route';
+import { homeRoutes }    from './home/home.route';
+import { lostBasketOptimizerRoutes }    from './lostBasketApplication/lostBasket.route';
 
 // Route Configuration
 export const routes: Routes = [
@@ -12,9 +14,11 @@ export const routes: Routes = [
     path: '',
     redirectTo: '/about',
     pathMatch: 'full'
-  }
-  ...aboutRoutes
-  ...contactRoutes
+  },
+  ...homeRoutes,
+  ...aboutRoutes,
+  ...contactRoutes,
+  ...lostBasketOptimizerRoutes
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);

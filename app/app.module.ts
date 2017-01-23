@@ -7,9 +7,12 @@ import { AppComponent }  from './app.component';
 import { NavbarComponent }  from './navbar/navbar';
 import { footerComponent }  from './footer/footer';
 import { selectionbarComponent }  from './selectionbar/selectionbar';
+import { DataContainerComponent }  from './dataContainer/dataContainer';
 import { homeComponent }  from './home/home';
 import { AboutComponent } from './about/about';
 import { contactComponent } from './contact/contact';
+import { OptimizerComponent } from './lostBasketApplication/optimizer';
+import { SimulatorComponent } from './lostBasketApplication/simulator';
 import { routing } from './app.routes';
 
 @NgModule({
@@ -22,9 +25,12 @@ import { routing } from './app.routes';
                   NavbarComponent,
                   footerComponent,
                   selectionbarComponent,
+                  DataContainerComponent,
                   homeComponent,
                   AboutComponent,
-                  contactComponent ],
+                  contactComponent,
+                  OptimizerComponent,
+                  SimulatorComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule {
