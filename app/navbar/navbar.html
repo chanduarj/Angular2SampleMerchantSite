@@ -1,10 +1,10 @@
 <nav class="navbar navbar-inverse magrginFixed">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Lost Basket Optimizer</a>
+      <a class="navbar-brand" [routerLink]="['/']">Lost Basket Optimizer</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li class="active"><a [routerLink]="['/']">Home</a></li>
+      <li><a [routerLink]="['/about']">About</a></li>
+      <li><a [routerLink]="['/contact']">Contact</a></li>
     </ul>
 </nav>
