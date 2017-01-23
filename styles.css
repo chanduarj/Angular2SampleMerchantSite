@@ -3,3 +3,19 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
+
+.homeContainer {
+    height: 500px;
+    padding: 0px 20px 0px 20px;
+}
+
+.magrginFixed {
+    margin-bottom: 0px
+}
+.selectionContainer{
+    height: 500px;
+    padding: 0px 20px 0px 20px;
+    background-color: #222;
+    border-color: #080808;
+    border-radius: 4px;
+}
