@@ -12,7 +12,7 @@ import { lostBasketOptimizerRoutes }    from './lostBasketApplication/lostBasket
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: '/about',
+    redirectTo: '/home',
     pathMatch: 'full'
   },
   ...homeRoutes,
