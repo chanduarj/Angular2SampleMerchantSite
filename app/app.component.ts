@@ -23,4 +23,9 @@ export class AppComponent  {
         {path: '/about', displayName:'About'},
         {path: '/contact', displayName:'Contact'}
         ];
+
+        public selectionLinks:Links[] = [
+        {path: '/optimizer', displayName:'Optimizer'},
+        {path: '/simulator', displayName:'Simulator'}
+        ];
 }

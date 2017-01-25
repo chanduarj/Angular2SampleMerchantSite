@@ -1,6 +1,6 @@
 <nav-bar *ngIf="parentLinks, application" [links] = "parentLinks" [application-details] = "application"></nav-bar>
 <div class="">
-    <selection-bar></selection-bar>
+    <selection-bar *ngIf="selectionLinks" [selections] = "selectionLinks"></selection-bar>
     <data-container></data-container>
 </div>
 <my-footer></my-footer>
