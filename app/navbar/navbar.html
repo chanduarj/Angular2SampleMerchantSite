@@ -1,8 +1,8 @@
 <nav class="navbar navbar-inverse magrginFixed">
     <div class="navbar-header">
-      <a class="navbar-brand" [routerLink]="['/']">Lost Basket Optimizer</a>
+      <a class="navbar-brand" [routerLink]="['/']">{{application.title}}</a>
     </div>
-    <ul class="nav navbar-nav" *ngFor="let link of links">
+    <ul class="nav navbar-nav" *ngFor="let link of renderLinks">
       <li><a [routerLink]=link.path>{{link.displayName}}</a></li>
     </ul>
 </nav>

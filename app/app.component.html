@@ -1,4 +1,4 @@
-<nav-bar></nav-bar>
+<nav-bar *ngIf="parentLinks, application" [links] = "parentLinks" [application-details] = "application"></nav-bar>
 <div class="">
     <selection-bar></selection-bar>
     <data-container></data-container>

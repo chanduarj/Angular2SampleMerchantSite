@@ -1,13 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'nav-bar',
   templateUrl: `./app/navbar/navbar.html`,
 })
 export class NavbarComponent  {
-            const links = [
-            {path: '/home', displayName:'Home'},
-            {path: '/about', displayName:'About'},
-            {path: '/contact', displayName:'Contact'}
-            ];
+            @Input('links') renderLinks:Array <Object>;
+            @Input('application-details') application:Object;
  }
