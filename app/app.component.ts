@@ -16,7 +16,7 @@ export interface Application{
 
 export class AppComponent  {
 
-        public application: Application{} = {title: "Lost Basket Optimizer"};
+        public application:Application = {title : "Lost Basket Optimizer"};
 
         public parentLinks:Links[] = [
         {path: '/home', displayName:'Home'},
