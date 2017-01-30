@@ -7,6 +7,8 @@ export interface Links{
 
 export interface Application{
     title:string;
+    owner:string;
+    mailTo:string;
 }
 
 @Component({
@@ -16,7 +18,9 @@ export interface Application{
 
 export class AppComponent  {
 
-        public application:Application = {title : "Lost Basket Optimizer"};
+        public application:Application = {title : "Lost Basket Optimizer",
+                                          owner : "Mageshwaran N",
+                                          mailTo : "get.mageshwaran@gmail.com"};
 
         public parentLinks:Links[] = [
         {path: '/home', displayName:'Home'},
