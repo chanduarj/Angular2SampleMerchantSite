@@ -2,7 +2,7 @@
 
 import { Routes } from '@angular/router';
 
-import { AboutComponent }    from '../about/about';
+import { AboutComponent }    from '../../app/components/about/about';
 import { SimulatorComponent }    from './simulator';
 import { OptimizerComponent }    from './optimizer';
 

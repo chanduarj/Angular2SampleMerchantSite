@@ -3,9 +3,9 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { aboutRoutes }    from './about/about.route';
-import { contactRoutes }    from './contact/contact.route';
-import { homeRoutes }    from './home/home.route';
+import { aboutRoutes }    from './components/about/about.route';
+import { contactRoutes }    from './components/contact/contact.route';
+import { homeRoutes }    from './components/home/home.route';
 import { lostBasketOptimizerRoutes }    from './lostBasketApplication/lostBasket.route';
 
 // Route Configuration

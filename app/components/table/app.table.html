@@ -1,0 +1,24 @@
+<div class="table-responsive">
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Brand</th>
+        <th>Category</th>
+        <th>National Distribution</th>
+        <th>Pack Content</th>
+        <th>Segment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let datum of data">
+        <td>{{datum.Item_Id}}</td>
+        <td>{{datum.Brand}}</td>
+        <td>{{datum.Category}}</td>
+        <td>{{datum.National_Disttribution}}</td>
+        <td>{{datum.Pack_Content}}</td>
+        <td>{{datum.Segment}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

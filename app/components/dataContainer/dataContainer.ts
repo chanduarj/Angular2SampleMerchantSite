@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
+  moduleId: module.id,
   selector: 'data-container',
-  templateUrl: `./app/dataContainer/dataContainer.html`,
+  templateUrl: `dataContainer.html`,
 })
 export class DataContainerComponent  {
 

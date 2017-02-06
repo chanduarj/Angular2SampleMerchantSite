@@ -19,3 +19,6 @@ h1 {
     border-color: #080808;
     border-radius: 4px;
 }
+.table-responsive {
+    max-height:480px;
+}

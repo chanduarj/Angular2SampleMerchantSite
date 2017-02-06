@@ -2,7 +2,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  templateUrl: `./app/about/about.html`
+  moduleId: module.id,
+  templateUrl: `about.html`
 })
 
 // Component class

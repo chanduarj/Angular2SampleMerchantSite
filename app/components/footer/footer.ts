@@ -1,8 +1,9 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
+  moduleId: module.id,
   selector: 'my-footer',
-  templateUrl: `./app/footer/footer.html`,
+  templateUrl: `footer.html`,
 })
 export class footerComponent  {
   @Input('application-details') application:Object;
