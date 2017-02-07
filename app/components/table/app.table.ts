@@ -6,6 +6,6 @@ import { Component, Input, Output } from '@angular/core';
   templateUrl: `app.table.html`,
 })
 export class TableComponent  {
-            @Input('data') data:Array [] ;
+            @Input('data') data:Array <any>;
             //@Output() ;
  }

@@ -10,10 +10,11 @@ import { DataService } from '../components/services/app.dataService';
 // Component class
 export class OptimizerComponent {
         optimizerData:Array<any>;
+        data: String;
         constructor(dataService: DataService) {
           dataService.getData()
-            .subscribe(data => {
-              this.optimizerData = data;
+            .subscribe(innerData => {
+              this.optimizerData = innerData;
             });
 
             this.data = "I/P and O/P";
